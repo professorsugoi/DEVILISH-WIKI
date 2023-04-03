@@ -1,16 +1,15 @@
 ---
 sidebar_position: 1
 
-title: test
-slug: test-doc
+title: Intro
+slug: intro
 tags:
-  - tag1
-  - tag2
+  - Devil
 keywords:
-  - devilish
+  - Devilish
 last_update:
-  date: 4/3/2023
-  author: sugoi
+  authors: sugoi
+  date: 04/03/2023
 ---
 
 # Title
