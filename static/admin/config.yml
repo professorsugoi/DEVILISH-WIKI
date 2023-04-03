@@ -28,9 +28,6 @@ collections:
   label_singular: "Doc"
   folder: docs
   create: true
-  nested:
-    depth: 100
-    summary: '{{title}}'
   identifier_field: title
   extension: md
   widget: "list"
@@ -60,7 +57,7 @@ collections:
       name: "last_update"
       widget: "object"
       fields:
-        - { label: By author, name: authors, widget: string, default: "sugoi" }
+        - { label: By author, name: author, widget: string, default: "sugoi" }
         - { label: Last updated, name: date, widget: date, format: "MM/DD/YYYY", default: "" }
 
 # subdir schema
@@ -101,7 +98,7 @@ collections:
       name: "last_update"
       widget: "object"
       fields:
-        - { label: By author, name: authors, widget: string, default: "sugoi" }
+        - { label: By author, name: author, widget: string, default: "sugoi" }
         - { label: Last updated, name: date, widget: date, format: "MM/DD/YYYY", default: "" }
 
 
@@ -143,7 +140,7 @@ collections:
       name: "last_update"
       widget: "object"
       fields:
-        - { label: By author, name: authors, widget: string, default: "sugoi" }
+        - { label: By author, name: author, widget: string, default: "sugoi" }
         - { label: Last updated, name: date, widget: date, format: "MM/DD/YYYY", default: "" }
 
 # blog schema
@@ -178,7 +175,7 @@ collections:
           name: "thumbnail"
           widget: "image"
           choose_url: true
-          default: "/static/img/sugoi.png"
+          default: "https://raw.githubusercontent.com/professorsugoi/DEVILISH-WIKI/main/static/img/sugoi.png"
           media_library:
             config:
               - { label: Icon, name: icon, widget: image }
