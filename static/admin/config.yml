@@ -25,6 +25,7 @@ collections:
 # wiki schemas
 - name: docs
   label: "Docs"
+  label_singular: "Doc"
   folder: docs
   identifier_field: title
   extension: md
@@ -65,56 +66,63 @@ collections:
         - { label: Last updated, name: date, widget: date, format: "MM/DD/YYYY", default: "" }
 
 # subdir schema
-- name: docs/devils
-  label: "Docs/Devils"
-  folder: docs_devils
-  identifier_field: title
-  extension: md
-  widget: "list"
+- name: devils
+  label: Devils
+  label_singular: 'Devil'
+  folder: docs/devils
   create: true
-  slug: "{{slug}}" # Filename template
   nested:
     depth: 100
     summary: '{{title}}'
-  meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-  fields:
-    - { label: Title, name: title, widget: string }
-    - { label: Body, name: body, widget: markdown }
-    - { label: Slug, name: slug, widget: string }
-
-    - label: "Tags"
-      name: "tags"
-      widget: "select"
-      multiple: true
-      min: 1
-      max: 3
-      options: ["Devil", "World", "Lore"]
-      default: ["Devil"]
-
-    - label: "Keywords" # SEO keywords
-      name: "keywords"
-      widget: "select"
-      multiple: true
-      max: 3
-      options: ["Devilish", "World", "Lore"]
-      default: [""]
-
-    - label: "Last updated"
-      name: "last_update"
-      widget: "object"
-      fields:
-        - { label: By author, name: authors, widget: string, default: "sugoi" }
-        - { label: Last updated, name: date, widget: date, format: "MM/DD/YYYY", default: "" }
-
-# subdir schema
-- name: docs/world
-  label: "Docs/World"
-  folder: docs_world
   identifier_field: title
   extension: md
   widget: "list"
+  fields:
+    - { label: Title, name: title, widget: string }
+    - { label: Body, name: body, widget: markdown }
+    - { label: Slug, name: slug, widget: string }
+
+    - label: "Tags"
+      name: "tags"
+      widget: "select"
+      multiple: true
+      min: 1
+      max: 3
+      options: ["Devil", "World", "Lore"]
+      default: ["Devil"]
+  
+    - label: "Keywords" # SEO keywords
+      name: "keywords"
+      widget: "select"
+      multiple: true
+      max: 3
+      options: ["Devilish", "World", "Lore"]
+      default: [""]
+    
+    - label: "Last updated"
+      name: "last_update"
+      widget: "object"
+      fields:
+        - { label: By author, name: authors, widget: string, default: "sugoi" }
+        - { label: Last updated, name: date, widget: date, format: "MM/DD/YYYY", default: "" }
+  meta:
+    path:
+      widget: string
+      label: 'Path'
+      index_file: 'index'
+
+# subdir schema
+- name: world
+  label: World
+  label_singular: 'World'
+  folder: docs/world
   create: true
-  slug: "{{slug}}" # Filename template
+  nested:
+    depth: 100
+    summary: '{{title}}'
+  identifier_field: title
+  extension: md
+  widget: "list"
   fields:
     - { label: Title, name: title, widget: string }
     - { label: Body, name: body, widget: markdown }
@@ -143,6 +151,11 @@ collections:
       fields:
         - { label: By author, name: authors, widget: string, default: "sugoi" }
         - { label: Last updated, name: date, widget: date, format: "MM/DD/YYYY", default: "" }
+  meta:
+    path:
+      widget: string
+      label: 'Path'
+      index_file: 'index'
 
 # blog schema
 - name: blog
