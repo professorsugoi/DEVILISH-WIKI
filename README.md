@@ -31,4 +31,4 @@ $ npm run start
 #### Layout Refs
 
 - Cards https://gitmoji.dev/
--
+- Decap https://github.com/decaporg/decap-cms/blob/master/dev-test/index.html

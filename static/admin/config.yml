@@ -75,9 +75,9 @@ collections:
     - label: "Author"
       name: "author"
       widget: "object"
-      summary: '{{fields.image}} {{fields.name}}'
+      summary: '${fields.thumbnail} ${fields.name}'
       fields:
-        - { label: Name, name: name, widget: string }
+        - { label: Name, name: name, widget: string, default: "sugoi" }
         - label: "Icon"
           name: "thumbnail"
           widget: "image"
