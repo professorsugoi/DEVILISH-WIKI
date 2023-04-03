@@ -18,8 +18,12 @@ $ npm run start
 
 # To Do
 
-- [ ] smaller footer
 - [ ] file structure
 - [ ] populate devils category
-- [ ] file count widget
-- [ ] layout tweaks
+- [ ] article count widget
+- [ ] search widget
+
+## Layout Overhaul
+
+- [ ] smaller footer
+- [ ] customize index page

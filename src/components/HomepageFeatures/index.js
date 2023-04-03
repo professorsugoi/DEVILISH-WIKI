@@ -4,19 +4,8 @@ import styles from './styles.module.css';
 
 const FeatureList = [
 	{
-		title: 'Easy to Use',
-		description: (
-			<>Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.</>
-		),
-	},
-	{
-		title: 'Powered by React',
-		description: (
-			<>
-				Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and
-				footer.
-			</>
-		),
+		title: 'WIP',
+		description: <>This site is in active development!</>,
 	},
 ];
 
