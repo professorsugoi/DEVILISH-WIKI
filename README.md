@@ -18,7 +18,7 @@ $ npm run start
 
 # To Do
 
-- [ ] file structure
+- [x] file structure
 - [ ] populate devils category
 - [ ] article count widget
 - [ ] search widget
@@ -31,5 +31,6 @@ $ npm run start
 #### Layout Refs
 
 - Cards https://gitmoji.dev/
+- Cards https://github.com/linyuxuanlin/Wiki-nav_Hugo
 - Decap https://github.com/decaporg/decap-cms/blob/master/dev-test/index.html
 - Decap Blogs https://decapcms.org/docs/examples/
