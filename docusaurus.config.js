@@ -15,10 +15,9 @@ const config = {
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: '/',
 
-	// GitHub pages deployment config.
-	// If you aren't using GitHub pages, you don't need these.
-	organizationName: 'professorsugoi', // Usually your GitHub org/user name.
-	projectName: 'DEVILISH-WIKI', // Usually your repo name.
+	// GitHub pages deployment config for Github Pages.
+	organizationName: 'professorsugoi', // gitHub user name.
+	projectName: 'DEVILISH-WIKI', // repo name.
 
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
@@ -37,16 +36,21 @@ const config = {
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
+					path: 'docs',
+					breadcrumbs: true,
 					sidebarPath: require.resolve('./sidebars.js'),
-					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+					editUrl: ({ docPath }) => `https://github.com/professorsugoi/DEVILISH-WIKI/edit/main/docs/${docPath}`,
+					editLocalizedFiles: false,
+					editCurrentVersion: false,
+					routeBasePath: 'docs',
+					include: ['**/*.md', '**/*.mdx', '**/**/*.md', '**/**/*.mdx'],
+					exclude: ['**/*.test.{js,jsx,ts,tsx}', '**/__tests__/**'],
 				},
 				blog: {
 					showReadingTime: false,
-					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+					editUrl: 'https://github.com/professorsugoi/DEVILISH-WIKI/tree/main/blog/${docPath}',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),

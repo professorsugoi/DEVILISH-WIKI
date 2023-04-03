@@ -57,4 +57,3 @@ collections:
       fields:
         - { label: Name, name: name, widget: string }
         - { label: Title, name: title, widget: string }
-        - { label: ImageUrl, name: imageURL, widget: string }
