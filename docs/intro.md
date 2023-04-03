@@ -6,8 +6,8 @@ tags:
 keywords:
   - Devilish
 last_update:
-  - date: 04/03/2023
-    authors: sugoi
+  authors: sugoi
+  date: 04/03/2023
 ---
 
 test doc

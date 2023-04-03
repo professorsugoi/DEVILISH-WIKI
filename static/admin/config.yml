@@ -54,10 +54,10 @@ collections:
 
     - label: "Last updated"
       name: "last_update"
-      widget: "list"
+      widget: "object"
       fields:
-        - { label: Last updated, name: date, widget: date, default: "", date_format: "MM/DD/YYYY", format: "L" }
         - { label: By author, name: authors, widget: string, default: "sugoi" }
+        - { label: Last updated, name: date, widget: date, default: "", date_format: "MM/DD/YYYY", format: "L" }
 
 - name: blog
   label: "blog"
