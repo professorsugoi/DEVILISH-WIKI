@@ -2,9 +2,17 @@ backend:
   name: github
   branch: main
   repo: professorsugoi/DEVILISH-WIKI
+  commit_messages:
+    create: create {{collection}} “{{slug}}”
+    update: update {{collection}} “{{slug}}”
+    delete: delete {{collection}} “{{slug}}”
+    uploadMedia: upload “{{path}}”
+    deleteMedia: delete “{{path}}”
+    openAuthoring: '{{message}}'
 
 media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
+preview_styles: "src/css/example.css"
 
 # cloudinary requires endpoint to be exposed. this is not enough to compromise the account.
 media_library:
@@ -44,12 +52,12 @@ collections:
       options: ["Devilish", "World", "Lore"]
       default: [""]
 
-    - label: "Last modified"
-      name: "last modified"
-      widget: "date"
-      default: ""
-      date_format: "MMM DD YYYY"
-      format: "L"
+    - label: "Last updated"
+      name: "last_update"
+      widget: "list"
+      fields:
+        - { label: Last updated, name: date, widget: date, default: "", date_format: "MM/DD/YYYY", format: "L" }
+        - { label: By author, name: authors, widget: string, default: "sugoi" }
 
 - name: blog
   label: "blog"
@@ -77,12 +85,12 @@ collections:
       widget: "object"
       summary: '${fields.author_thumbnail} ${fields.author_name}'
       fields:
-        - { label: Name, name: name, widget: string, default: "sugoi" }
+        - { label: Name, name: name, widget: string, default: ["sugoi"] }
         - label: "Icon"
           name: "thumbnail"
           widget: "image"
           choose_url: true
-          default: "/static/img/sugoi.png"
+          default: ["/static/img/sugoi.png"]
           media_library:
             config:
               - { label: Icon, name: icon, widget: image }

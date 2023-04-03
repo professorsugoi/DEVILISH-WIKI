@@ -32,3 +32,4 @@ $ npm run start
 
 - Cards https://gitmoji.dev/
 - Decap https://github.com/decaporg/decap-cms/blob/master/dev-test/index.html
+- Decap Blogs https://decapcms.org/docs/examples/

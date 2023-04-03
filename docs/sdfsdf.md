@@ -1,4 +1,6 @@
 ---
+sidebar_position: 1
+
 title: TEST DOC
 slug: test-doc-333
 tags:
@@ -6,7 +8,8 @@ tags:
 keywords:
   - Devilish
 last_update:
-  last_update: 04/03/2023
-  author: sugoi
+  date: 04/03/2023
+  authors: sugoi
 ---
+
 d﻿sfsdfsdf

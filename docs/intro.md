@@ -1,16 +1,13 @@
 ---
-sidebar_position: 1
-
 title: Intro
 slug: intro
 tags:
-  - tag1
-  - tag2
-last modified:
-  - name: a name string
-    date: a title string
+  - Devil
+keywords:
+  - Devilish
+last_update:
+  - date: 04/03/2023
+    authors: sugoi
 ---
 
-# Title
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+test doc
