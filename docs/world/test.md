@@ -1,14 +1,16 @@
 ---
 sidebar_position: 1
 
-title: Intro
-slug: intro
+title: test
+slug: test-doc
 tags:
   - tag1
   - tag2
-last modified:
-  - name: a name string
-    date: a title string
+keywords:
+  - devilish
+last_update:
+  date: 4/3/2023
+  author: sugoi
 ---
 
 # Title

@@ -6,9 +6,11 @@ slug: test-doc
 tags:
   - tag1
   - tag2
-authors:
-  - name: a name string
-    date: a date string
+keywords:
+  - devilish
+last_update:
+  date: 4/3/2023
+  author: sugoi
 ---
 
 # Title

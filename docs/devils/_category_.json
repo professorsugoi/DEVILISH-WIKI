@@ -1,8 +1,8 @@
 {
-	"label": "Lore",
+	"label": "Devils",
 	"position": 2,
 	"link": {
 		"type": "generated-index",
-		"description": "Different lores."
+		"description": "List of current DEVILS."
 	}
 }

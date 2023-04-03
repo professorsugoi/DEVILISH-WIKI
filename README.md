@@ -23,7 +23,12 @@ $ npm run start
 - [ ] article count widget
 - [ ] search widget
 
-## Layout Overhaul
+#### Layout Overhaul
 
 - [ ] smaller footer
 - [ ] customize index page
+
+#### Layout Refs
+
+- Cards https://gitmoji.dev/
+-

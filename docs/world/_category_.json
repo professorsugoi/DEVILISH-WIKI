@@ -1,0 +1,8 @@
+{
+	"label": "World",
+	"position": 3,
+	"link": {
+		"type": "generated-index",
+		"description": "World info."
+	}
+}
