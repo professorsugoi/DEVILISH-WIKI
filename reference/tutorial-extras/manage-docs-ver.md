@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Manage Docs Versions
 
 Docusaurus can manage multiple versions of your docs.
@@ -29,23 +25,21 @@ Modify the `docusaurus.config.js` file:
 
 ```js title="docusaurus.config.js"
 module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
+	themeConfig: {
+		navbar: {
+			items: [
+				// highlight-start
+				{
+					type: 'docsVersionDropdown',
+				},
+				// highlight-end
+			],
+		},
+	},
 };
 ```
 
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
+The docs version dropdown appears in your navbar
 
 ## Update an existing version
 

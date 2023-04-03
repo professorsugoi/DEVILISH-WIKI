@@ -1,16 +1,12 @@
----
-sidebar_position: 3
----
-
 # Create a Blog Post
 
 Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 
 ## Create your first Post
 
-Create a file at `blog/2021-02-28-greetings.md`:
+Create a file at `blog/2023-04-02-test.md`:
 
-```md title="blog/2021-02-28-greetings.md"
+```md
 ---
 slug: greetings
 title: Greetings!
