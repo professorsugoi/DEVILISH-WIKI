@@ -73,6 +73,10 @@ collections:
   widget: "list"
   create: true
   slug: "{{slug}}" # Filename template
+  nested:
+    depth: 100
+    summary: '{{title}}'
+  meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
   fields:
     - { label: Title, name: title, widget: string }
     - { label: Body, name: body, widget: markdown }
