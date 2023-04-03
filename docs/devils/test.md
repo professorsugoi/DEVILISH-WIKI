@@ -10,7 +10,7 @@ keywords:
   - devilish
 last_update:
   date: 4/3/2023
-  author: sugoi
+  authors: sugoi
 ---
 
 # Title

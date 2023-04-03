@@ -39,7 +39,8 @@ const config = {
 					path: 'docs',
 					breadcrumbs: true,
 					sidebarPath: require.resolve('./sidebars.js'),
-					showLastUpdateTime: false,
+					showLastUpdateTime: true,
+					showLastUpdateAuthor: true,
 					// Remove this to remove the "edit this page" links.
 					editUrl: ({ docPath }) => `https://github.com/professorsugoi/DEVILISH-WIKI/edit/main/docs/${docPath}`,
 					editLocalizedFiles: false,

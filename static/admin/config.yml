@@ -73,9 +73,9 @@ collections:
       default: ["Changelog"]
 
     - label: "Author"
-      name: "author"
+      name: "authors"
       widget: "object"
-      summary: '${fields.thumbnail} ${fields.name}'
+      summary: '${fields.author_thumbnail} ${fields.author_name}'
       fields:
         - { label: Name, name: name, widget: string, default: "sugoi" }
         - label: "Icon"
