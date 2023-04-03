@@ -40,7 +40,6 @@ collections:
       name: "keywords"
       widget: "select"
       multiple: true
-      min: 0
       max: 3
       options: ["Devilish", "World", "Lore"]
       default: [""]
@@ -67,11 +66,23 @@ collections:
 
     - label: "Tags"
       name: "tags"
-      widget: "list"
+      widget: "select"
+      multiple: true
+      max: 3
+      options: ["Changelog", "Misc", "Art"]
+      default: ["Changelog"]
 
-    - label: "Authors"
-      name: "authors"
-      widget: "list"
+    - label: "Author"
+      name: "author"
+      widget: "object"
+      summary: '{{fields.image}} {{fields.name}}'
       fields:
         - { label: Name, name: name, widget: string }
-        - { label: Title, name: title, widget: string }
+        - label: "Icon"
+          name: "thumbnail"
+          widget: "image"
+          choose_url: true
+          default: "/static/img/sugoi.png"
+          media_library:
+            config:
+              - { label: Icon, name: icon, widget: image }
