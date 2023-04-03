@@ -45,7 +45,7 @@ const config = {
 					editUrl: ({ docPath }) => `https://github.com/professorsugoi/DEVILISH-WIKI/edit/main/docs/${docPath}`,
 					editLocalizedFiles: false,
 					editCurrentVersion: false,
-					routeBasePath: 'docs',
+					routeBasePath: 'docs/',
 					include: ['**/*.md', '**/*.mdx'],
 					exclude: ['**/*.test.{js,jsx,ts,tsx}', '**/__tests__/**'],
 				},

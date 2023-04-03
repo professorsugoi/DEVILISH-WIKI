@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+# sidebar_position: 1
 
-title: Intro
-slug: intro
+title: Index
+slug: index
 tags:
   - Devil
 keywords:
