@@ -5,13 +5,28 @@
  */
 
 /* Override the default Infima variables here. */
-:root {
-	--ifm-color-primary: #25c2a0;
-	--ifm-color-primary-dark: #21af90;
-	--ifm-color-primary-darker: #1fa588;
-	--ifm-color-primary-darkest: #1a8870;
-	--ifm-color-primary-light: #29d5b0;
-	--ifm-color-primary-lighter: #32d8b4;
-	--ifm-color-primary-lightest: #4fddbf;
+:root,
+[data-theme='dark'] {
+	--ifm-color-primary: #e45be4;
+	--ifm-color-primary-dark: #b038b0;
+	--ifm-color-primary-darker: #8c2d8c;
+	--ifm-color-primary-darkest: #6b226b;
+	--ifm-color-primary-light: #ee7bee;
+	--ifm-color-primary-lighter: #f39ff3;
+	--ifm-color-primary-lightest: #f7ccf7;
+
+	--ifm-color-accent: #1ac7c7;
+	--ifm-color-accent-dark: #139393;
+	--ifm-color-accent-darker: #0c6c6c;
+	--ifm-color-accent-darkest: #064646;
+	--ifm-color-accent-light: #44dada;
+	--ifm-color-accent-lighter: #6eded0;
+	--ifm-color-accent-lightest: #98e0e0;
+
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Component Overrides */
+.footer {
+	--ifm-footer-background-color: #2a2935;
 }
