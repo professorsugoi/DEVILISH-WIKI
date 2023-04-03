@@ -1,4 +1,6 @@
 ---
+position: 1
+
 title: Index
 slug: index
 tags:
@@ -9,4 +11,5 @@ last_update:
   authors: sugoi
   date: 04/03/2023
 ---
+
 W﻿elcome o/

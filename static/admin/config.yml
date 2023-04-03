@@ -27,15 +27,13 @@ collections:
   label: "Docs"
   label_singular: "Doc"
   folder: docs
-  identifier_field: title
-  extension: md
-  widget: "list"
   create: true
-  slug: "{{slug}}" # Filename template
   nested:
     depth: 100
     summary: '{{title}}'
-  meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+  identifier_field: title
+  extension: md
+  widget: "list"
   fields:
     - { label: Title, name: title, widget: string }
     - { label: Body, name: body, widget: markdown }
@@ -105,11 +103,7 @@ collections:
       fields:
         - { label: By author, name: authors, widget: string, default: "sugoi" }
         - { label: Last updated, name: date, widget: date, format: "MM/DD/YYYY", default: "" }
-  meta:
-    path:
-      widget: string
-      label: 'Path'
-      index_file: 'index'
+
 
 # subdir schema
 - name: world
@@ -151,11 +145,6 @@ collections:
       fields:
         - { label: By author, name: authors, widget: string, default: "sugoi" }
         - { label: Last updated, name: date, widget: date, format: "MM/DD/YYYY", default: "" }
-  meta:
-    path:
-      widget: string
-      label: 'Path'
-      index_file: 'index'
 
 # blog schema
 - name: blog
@@ -184,12 +173,12 @@ collections:
       widget: "object"
       summary: '${fields.author_thumbnail} ${fields.author_name}'
       fields:
-        - { label: Name, name: name, widget: string, default: ["sugoi"] }
+        - { label: Name, name: name, widget: string, default: "sugoi" }
         - label: "Icon"
           name: "thumbnail"
           widget: "image"
           choose_url: true
-          default: ["/static/img/sugoi.png"]
+          default: "/static/img/sugoi.png"
           media_library:
             config:
               - { label: Icon, name: icon, widget: image }
