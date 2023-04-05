@@ -1,13 +1,13 @@
 ---
-title: 'DEVIL #TEST'
-slug: test-devil
+title: 'DEVIL #036'
+slug: devil-036
 tags:
   - Devil
 keywords:
   - Devilish
 last_update:
   author: sugoi
-  date: 04/03/2023
+  date: 04/05/2023
 ---
 
-l﻿orem ipsum
+# DEVIL #036

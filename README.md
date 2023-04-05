@@ -19,7 +19,8 @@ $ npm run start
 # To Do
 
 - [x] file structure
-- [ ] populate devils category
+- [x] populate placeholders
+- [ ] populate info
 - [ ] article count widget
 - [ ] search widget
 
@@ -34,3 +35,10 @@ $ npm run start
 - Cards https://github.com/linyuxuanlin/Wiki-nav_Hugo
 - Decap https://github.com/decaporg/decap-cms/blob/master/dev-test/index.html
 - Decap Blogs https://decapcms.org/docs/examples/
+- https://docusaurus.io/showcase?tags=personal
+- https://github.com/rowfishjs/rowfish
+
+#### Utils
+
+- Search bar: https://github.com/cmfcmf/docusaurus-search-local
+- DS Markdown: https://docusaurus.io/docs/markdown-features
