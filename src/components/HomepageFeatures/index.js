@@ -4,8 +4,22 @@ import styles from './styles.module.css';
 
 const FeatureList = [
 	{
-		title: 'WIP',
-		description: <>This site is in active development!</>,
+		title: 'Welcome',
+		description: (
+			<>
+				This is a comprehensive wiki for all things DEVILISH. It is currently under development, so some areas may only be
+				populated with placeholders.
+			</>
+		),
+	},
+	{
+		title: 'Contributing',
+		description: (
+			<>
+				Contributions are welcome and encouraged! As of now, the primary method for contributing is through github (link in
+				footer). A brief guide will be published in the future.
+			</>
+		),
 	},
 ];
 

@@ -16,19 +16,18 @@ $ npm run start
 
 # To Do
 
+- [ ] customize index page (see aesth wiki refs)
+- [ ] smaller footer
+- [ ] timeline page
+- [ ] article count widget
+- [ ] search widget
 - [x] file structure
 - [x] populate placeholders
 - [x] populate info
-- [ ] article count widget
-- [ ] search widget
-
-#### Layout Overhaul
-
-- [ ] smaller footer
-- [ ] customize index page
 
 #### Layout Refs
 
+- Index https://aesthetics.fandom.com/wiki/Aesthetics_Wiki
 - Cards https://gitmoji.dev/
 - Cards https://github.com/linyuxuanlin/Wiki-nav_Hugo
 - Decap https://github.com/decaporg/decap-cms/blob/master/dev-test/index.html

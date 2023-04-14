@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 
-title: Humanity
+title: HUMANITY
 slug: humanity
 tags:
   - Devil

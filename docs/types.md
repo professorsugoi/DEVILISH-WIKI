@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 
-title: Types
+title: TYPES
 slug: types
 tags:
   - Devil
