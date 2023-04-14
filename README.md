@@ -20,7 +20,7 @@ $ npm run start
 
 - [x] file structure
 - [x] populate placeholders
-- [ ] populate info
+- [x] populate info
 - [ ] article count widget
 - [ ] search widget
 
