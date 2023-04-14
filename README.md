@@ -1,7 +1,5 @@
 # Wiki
 
-[![Website wiki.devilish.wtf](https://img.shields.io/website-up-down-green-red/https/wiki.devilish.wtf.svg)](https://wiki.devilish.wtf/)
-
 Bootstrapped with [Docusaurus 2](https://docusaurus.io/)  
 CMS by [DecapCMS](https://decapcms.org/).
 
