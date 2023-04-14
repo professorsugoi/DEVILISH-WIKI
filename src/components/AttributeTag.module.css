@@ -1,0 +1,29 @@
+.attributeTag {
+	display: inline-flex; /* block? */
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(76, 70, 78, 0.3);
+	border: 1px solid #be55be;
+	border-radius: 7px;
+	padding: 4px 8px;
+	margin: 4px;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.attributeTag:hover {
+	background-color: rgba(122, 95, 173, 0.3);
+	cursor: pointer;
+}
+
+.traitType {
+	color: #c754c7;
+	font-weight: 500;
+	font-size: 11px;
+}
+
+.value {
+	color: #e5e8eb;
+	font-weight: 500;
+	font-size: 15px;
+}
